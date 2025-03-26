@@ -147,7 +147,7 @@ const About = ({ theme }) => {
             </InfoItem>
           </InfoGrid>
           <DownloadButton
-            href="/assets/resume/resume.pdf"
+            href="/resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
