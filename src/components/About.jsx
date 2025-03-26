@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaDownload } from 'react-icons/fa';
 import profilepic from '../assets/images/profilepic.jpg';
+import resume from '../assets/resume/resume.pdf';
 
 const AboutSection = styled.section`
   padding: 6rem 2rem;
@@ -147,7 +148,7 @@ const About = ({ theme }) => {
             </InfoItem>
           </InfoGrid>
           <DownloadButton
-            href="/assets/resume/resume.pdf"
+            href={resume}
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

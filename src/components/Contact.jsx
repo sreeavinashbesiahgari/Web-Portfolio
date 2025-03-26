@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
 import emailjs from 'emailjs-com';
 
 const ContactSection = styled.section`
@@ -155,11 +155,12 @@ const Contact = ({ theme }) => {
     setStatus('sending');
 
     try {
+      // Update EmailJS send function
       await emailjs.send(
-        'YOUR_SERVICE_ID',
-        'YOUR_TEMPLATE_ID',
-        formData,
-        'YOUR_USER_ID'
+        'service_w16udld',           // Service ID
+        'template_snenn8r',          // Template ID
+        formData,                    // Form data
+        'YRFGHQmjlHpB-kbGQ'          // Public key
       );
       setStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -210,7 +211,6 @@ const Contact = ({ theme }) => {
             >
               <FaLinkedin />
             </SocialIcon>
-            
           </SocialLinks>
         </ContactInfo>
         <ContactForm
@@ -289,4 +289,4 @@ const Contact = ({ theme }) => {
   );
 };
 
-export default Contact; 
+export default Contact;
