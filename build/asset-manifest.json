@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ad13ba3f.css",
+    "main.js": "/static/js/main.2d83e040.js",
+    "static/media/multilanguage.jpg": "/static/media/multilanguage.98c3e65f45bb94066550.jpg",
+    "static/media/ragchatbot.png": "/static/media/ragchatbot.a65a74c0f9e503abb65a.png",
+    "static/media/profilepic.jpg": "/static/media/profilepic.ddc842dd061da2764e19.jpg",
+    "static/media/ecommerce.avif": "/static/media/ecommerce.a178e6f06cbf1cc83bfc.avif",
+    "index.html": "/index.html",
+    "main.ad13ba3f.css.map": "/static/css/main.ad13ba3f.css.map",
+    "main.2d83e040.js.map": "/static/js/main.2d83e040.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad13ba3f.css",
+    "static/js/main.2d83e040.js"
+  ]
+}
