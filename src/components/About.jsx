@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { FaDownload } from 'react-icons/fa';
 import profilepic from '../assets/images/profilepic.jpg';
-import resume from '../assets/resume/resume.pdf';
+import resume from '../assets/resume/Avinash_resume.pdf';
 
 const AboutSection = styled.section`
   padding: 6rem 2rem;
